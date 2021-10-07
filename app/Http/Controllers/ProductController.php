@@ -20,7 +20,7 @@ class ProductController extends Controller
             'stock' => $request->stock,
         ]);
 
-        return back();
+        return redirect('products');
     }
 
     public function viewProduct()
